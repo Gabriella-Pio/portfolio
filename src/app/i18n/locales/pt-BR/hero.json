@@ -1,0 +1,19 @@
+{
+  "title": {
+    "line1": "Engenharia de Software",
+    "line2": "Arquitetura de Sistemas"
+  },
+  "status": "STATUS DO SISTEMA: ONLINE",
+  "metrics": {
+    "title": "METRICAS_DO_SISTEMA",
+    "uptime": "TEMPO_ONLINE",
+    "cpuLoad": "CARGA_CPU",
+    "nodes": "NOS",
+    "cores": "NUCLEOS"
+  },
+  "operations": {
+    "currentOp": "OP_ATUAL ::",
+    "available": "DISPONIVEL PARA CONTRATACAO",
+    "protocol": "PROTOCOLO ::"
+  }
+}

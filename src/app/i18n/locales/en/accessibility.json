@@ -1,0 +1,25 @@
+{
+  "title": "ACCESSIBILITY",
+  "description": "Adjust the visual and reading experience of the portfolio.",
+  "triggerLabel": "Open accessibility panel",
+  "highContrast": {
+    "label": "HIGH_CONTRAST",
+    "description": "Improves overall readability"
+  },
+  "fontScale": {
+    "label": "FONT_SCALE",
+    "description": "Adjusts system text scale"
+  },
+  "reduceMotion": {
+    "label": "REDUCE_MOTION",
+    "description": "Minimizes animations and transitions"
+  },
+  "simplifiedMode": {
+    "label": "READING_MODE",
+    "description": "Removes decorative elements"
+  },
+  "keyboardFocus": {
+    "label": "KEYBOARD_FOCUS",
+    "description": "Enhances focused element visibility"
+  }
+}

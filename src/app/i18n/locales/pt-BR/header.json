@@ -1,0 +1,11 @@
+{
+  "commandPalette": "PROCURAR_COMANDOS",
+  "theme": "TEMA",
+  "accessibility": "ACESSIBILIDADE",
+  "simulation": {
+    "active": "SIMULADOR_ATIVO",
+    "inactive": "INICIAR_SIM",
+    "mobileActive": "3D ATIVO",
+    "mobileInactive": "INICIAR SIM 3D"
+  }
+}

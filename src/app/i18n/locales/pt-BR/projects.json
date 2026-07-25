@@ -1,0 +1,22 @@
+{
+  "heading": "INDICE_DE_PROJETOS",
+  "subheading": "ACESSANDO BANCO DE DADOS...",
+  "totalRecords": "Total de Registros: {{count}}",
+  "domain": "DOMINIO",
+  "year": "ANO",
+  "techStack": "Tech Stack",
+  "modal": {
+    "livePreview": "PREVIA_AO_VIVO",
+    "challenge": "O Desafio",
+    "architecture": "Arquitetura do Sistema",
+    "inspectCode": "Inspecionar Código",
+    "launchDemo": "Iniciar Demo ao Vivo"
+  },
+  "status": {
+    "Stable": "Estável",
+    "Production": "Produção",
+    "Prototype": "Protótipo",
+    "Archived": "Arquivado",
+    "WIP": "Em Desenvolvimento"
+  }
+}

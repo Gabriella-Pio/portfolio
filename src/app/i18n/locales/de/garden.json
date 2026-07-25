@@ -1,0 +1,9 @@
+{
+  "heading": "LOGIK_PROTOKOLLE",
+  "category": "Kategorie: {{category}}",
+  "olderLogs": "Aeltere Protokolle anzeigen...",
+  "drawer": {
+    "share": "Teilen",
+    "readFull": "Vollstaendigen Artikel lesen"
+  }
+}

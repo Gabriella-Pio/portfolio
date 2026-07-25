@@ -1,0 +1,25 @@
+{
+  "title": "ACESSIBILIDADE",
+  "description": "Ajuste a experiência visual e de leitura do portfólio.",
+  "triggerLabel": "Abrir painel de acessibilidade",
+  "highContrast": {
+    "label": "ALTO_CONTRASTE",
+    "description": "Melhora a legibilidade geral"
+  },
+  "fontScale": {
+    "label": "TAMANHO_FONTE",
+    "description": "Ajusta a escala de texto do sistema"
+  },
+  "reduceMotion": {
+    "label": "REDUZIR_MOVIMENTO",
+    "description": "Diminui animações e transições"
+  },
+  "simplifiedMode": {
+    "label": "MODO_LEITURA",
+    "description": "Remove elementos decorativos"
+  },
+  "keyboardFocus": {
+    "label": "FOCO_TECLADO",
+    "description": "Destaca melhor os elementos em foco"
+  }
+}

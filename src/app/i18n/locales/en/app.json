@@ -1,0 +1,12 @@
+{
+  "loading": {
+    "initializing": "INITIALIZING_ENGINE",
+    "assets": "LOADING_ASSETS..."
+  },
+  "simulation": {
+    "title": "3D Environment Active",
+    "description": "In a real deployment, this would load the Three.js Canvas overlaying the DOM.",
+    "return2D": "Returning to 2D Documentation Mode...",
+    "disengage": "DISENGAGE_SIMULATION"
+  }
+}

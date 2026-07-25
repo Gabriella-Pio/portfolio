@@ -1,0 +1,22 @@
+{
+  "heading": "PROJEKT_INDEX",
+  "subheading": "ZUGRIFF AUF ARCHIVDATENBANK...",
+  "totalRecords": "Gesamte Datensätze: {{count}}",
+  "domain": "DOMAENE",
+  "year": "JAHR",
+  "techStack": "Tech Stack",
+  "modal": {
+    "livePreview": "LIVE_VORSCHAU",
+    "challenge": "Die Herausforderung",
+    "architecture": "Systemarchitektur",
+    "inspectCode": "Code Inspektion",
+    "launchDemo": "Live-Demo Starten"
+  },
+  "status": {
+    "Stable": "Stabil",
+    "Production": "Produktion",
+    "Prototype": "Prototyp",
+    "Archived": "Archiviert",
+    "WIP": "In Bearbeitung"
+  }
+}

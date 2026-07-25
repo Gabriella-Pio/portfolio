@@ -1,0 +1,9 @@
+{
+  "heading": "LOGS_DE_LOGICA",
+  "category": "Categoría: {{category}}",
+  "olderLogs": "Ver registros anteriores...",
+  "drawer": {
+    "share": "Compartir",
+    "readFull": "Leer artículo completo"
+  }
+}

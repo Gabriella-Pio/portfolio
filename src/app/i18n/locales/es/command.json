@@ -1,0 +1,20 @@
+{
+  "placeholder": "Escribe un comando o busca...",
+  "bestMatch": "Mejor Coincidencia",
+  "noResults": "No se encontraron resultados.",
+  "goToRepo": "Ir al repositorio de Bikcraft",
+  "groups": {
+    "navigation": "Navegación",
+    "system": "Sistema",
+    "social": "Redes Sociales"
+  },
+  "items": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "notes": "Notas",
+    "about": "Sobre mí",
+    "settings": "Ajustes",
+    "toggleDark": "Cambiar a Modo Oscuro",
+    "toggleLight": "Cambiar a Modo Claro"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "loading": {
+    "initializing": "INICIALIZANDO_ENGINE",
+    "assets": "CARREGANDO_RECURSOS..."
+  },
+  "simulation": {
+    "title": "Ambiente 3D Ativo",
+    "description": "Em uma implantação real, isso carregaria o Canvas do Three.js sobrepondo o DOM.",
+    "return2D": "Retornando ao Modo de Documentação 2D...",
+    "disengage": "DESATIVAR_SIMULACAO"
+  }
+}

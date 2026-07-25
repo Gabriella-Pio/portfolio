@@ -1,0 +1,25 @@
+{
+  "title": "BARRIEREFREIHEIT",
+  "description": "Passen Sie das visuelle und Leseerlebnis des Portfolios an.",
+  "triggerLabel": "Barrierefreiheits-Panel oeffnen",
+  "highContrast": {
+    "label": "HOHER_KONTRAST",
+    "description": "Verbessert die allgemeine Lesbarkeit"
+  },
+  "fontScale": {
+    "label": "SCHRIFTGROESSE",
+    "description": "Passiert die Systemtextskalierung an"
+  },
+  "reduceMotion": {
+    "label": "BEWEGUNG_REDUZIEREN",
+    "description": "Minimiert Animationen und Uebergaenge"
+  },
+  "simplifiedMode": {
+    "label": "LESEMODUS",
+    "description": "Entfernt dekorative Elemente"
+  },
+  "keyboardFocus": {
+    "label": "TASTATUR_FOKUS",
+    "description": "Hebt fokussierte Elemente besser hervor"
+  }
+}

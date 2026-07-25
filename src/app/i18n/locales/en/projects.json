@@ -1,0 +1,22 @@
+{
+  "heading": "PROJECT_INDEX",
+  "subheading": "ACCESSING ARCHIVE DATABASE...",
+  "totalRecords": "Total Records: {{count}}",
+  "domain": "DOMAIN",
+  "year": "YEAR",
+  "techStack": "Tech Stack",
+  "modal": {
+    "livePreview": "LIVE_PREVIEW",
+    "challenge": "The Challenge",
+    "architecture": "System Architecture",
+    "inspectCode": "Inspect Code",
+    "launchDemo": "Launch Live Demo"
+  },
+  "status": {
+    "Stable": "Stable",
+    "Production": "Production",
+    "Prototype": "Prototype",
+    "Archived": "Archived",
+    "WIP": "In Progress"
+  }
+}

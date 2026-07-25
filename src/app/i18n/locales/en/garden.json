@@ -1,0 +1,9 @@
+{
+  "heading": "LOGIC_LOGS",
+  "category": "Category: {{category}}",
+  "olderLogs": "View older logs...",
+  "drawer": {
+    "share": "Share",
+    "readFull": "Read full article"
+  }
+}

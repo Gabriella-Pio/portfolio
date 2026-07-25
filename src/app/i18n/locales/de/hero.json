@@ -1,0 +1,19 @@
+{
+  "title": {
+    "line1": "Software Engineering",
+    "line2": "Systemarchitektur"
+  },
+  "status": "SYSTEMSTATUS: ONLINE",
+  "metrics": {
+    "title": "SYSTEM_METRIKEN",
+    "uptime": "BETRIEBSZEIT",
+    "cpuLoad": "CPU_AUSLASTUNG",
+    "nodes": "KNOTEN",
+    "cores": "KERNE"
+  },
+  "operations": {
+    "currentOp": "AKTUELL_OP  ::",
+    "available": "VERFUEGBAR FUER ANSTELLUNG",
+    "protocol": "PROTOKOLL   ::"
+  }
+}

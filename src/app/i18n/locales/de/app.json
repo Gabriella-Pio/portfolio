@@ -1,0 +1,12 @@
+{
+  "loading": {
+    "initializing": "ENGINE_INITIALISIEREN",
+    "assets": "LADE_ASSETS..."
+  },
+  "simulation": {
+    "title": "3D-Umgebung Aktiv",
+    "description": "In einer realen Bereitstellung wuerde dies das Three.js Canvas ueber dem DOM laden.",
+    "return2D": "Rueckkehr zum 2D-Dokumentationsmodus...",
+    "disengage": "SIMULATION_BEENDEN"
+  }
+}
