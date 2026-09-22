@@ -3,7 +3,8 @@
   "category": "Kategorie: {{category}}",
   "olderLogs": "Aeltere Protokolle anzeigen...",
   "drawer": {
-    "share": "Teilen",
-    "readFull": "Vollstaendigen Artikel lesen"
+    "share": "Link kopieren",
+    "copied": "Link kopiert",
+    "readFull": "Repository oeffnen"
   }
 }

@@ -13,9 +13,24 @@ const AccessibilityContext = createContext<AccessibilityContextValue | undefined
 
 const STORAGE_KEY = 'portfolio-preferences';
 
+const getSystemTheme = (): Theme => {
+  if (typeof window === 'undefined') {
+    return 'dark';
+  }
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+};
+
+const getSystemReduceMotion = (): boolean => {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+};
+
 export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setTheme] = useState<Theme>('dark');
   const [preferences, setPreferences] = useState<AccessibilityPreferences>(defaultAccessibilityPreferences);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -23,35 +38,42 @@ export const AccessibilityProvider: React.FC<{ children: React.ReactNode }> = ({
     }
 
     const saved = window.localStorage.getItem(STORAGE_KEY);
-    if (!saved) {
-      return;
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved) as {
+          theme?: Theme;
+          preferences?: AccessibilityPreferences;
+        };
+
+        if (parsed.theme) {
+          setTheme(parsed.theme);
+        }
+
+        if (parsed.preferences) {
+          setPreferences({ ...defaultAccessibilityPreferences, ...parsed.preferences });
+        }
+
+        setHydrated(true);
+        return;
+      } catch {
+        window.localStorage.removeItem(STORAGE_KEY);
+      }
     }
 
-    try {
-      const parsed = JSON.parse(saved) as {
-        theme?: Theme;
-        preferences?: AccessibilityPreferences;
-      };
-
-      if (parsed.theme) {
-        setTheme(parsed.theme);
-      }
-
-      if (parsed.preferences) {
-        setPreferences(parsed.preferences);
-      }
-    } catch {
-      window.localStorage.removeItem(STORAGE_KEY);
+    setTheme(getSystemTheme());
+    if (getSystemReduceMotion()) {
+      setPreferences(prev => ({ ...prev, reduceMotion: true }));
     }
+    setHydrated(true);
   }, []);
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
+    if (typeof window === 'undefined' || !hydrated) {
       return;
     }
 
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify({ theme, preferences }));
-  }, [theme, preferences]);
+  }, [theme, preferences, hydrated]);
 
   const toggleTheme = useCallback(() => {
     setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));

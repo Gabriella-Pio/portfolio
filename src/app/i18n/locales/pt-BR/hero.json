@@ -1,19 +1,25 @@
 {
   "title": {
     "line1": "Engenharia de Software",
-    "line2": "Arquitetura de Sistemas"
+    "line2": "Sistemas Industriais"
   },
   "status": "STATUS DO SISTEMA: ONLINE",
   "metrics": {
-    "title": "METRICAS_DO_SISTEMA",
-    "uptime": "TEMPO_ONLINE",
-    "cpuLoad": "CARGA_CPU",
-    "nodes": "NOS",
-    "cores": "NUCLEOS"
+    "title": "TELEMETRIA_SISTEMA"
   },
   "operations": {
-    "currentOp": "OP_ATUAL ::",
-    "available": "DISPONIVEL PARA CONTRATACAO",
-    "protocol": "PROTOCOLO ::"
+    "currentOp": "OP_ATUAL   ::",
+    "status": "Software & Metrologia no SENAI ZEISS",
+    "stackCore": "STACK_CORE ::",
+    "location": "LOCALIZAÇÃO ::",
+    "locationValue": "Goiânia, BR"
+  },
+  "telemetry": {
+    "zeissTitle": "PROGRAMA ZEISS ALEMANHA",
+    "zeissDesc": "Selecionada entre alunos de 3 unidades SENAI para disputar estágio na Alemanha.",
+    "coreDomainTitle": "DOMÍNIO PRINCIPAL",
+    "coreDomainDesc": "Web Full-Stack, Conteinerização de Microserviços & Metrologia de Precisão.",
+    "languagesLabel": "IDIOMAS",
+    "degreeLabel": "CURSO"
   }
 }

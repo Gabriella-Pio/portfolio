@@ -1,0 +1,12 @@
+{
+  "heading": "TECH_STACK",
+  "badge": "core/module",
+  "categories": {
+    "all": "ALLE_MODULE",
+    "frontend": "FRONTEND",
+    "backend": "BACKEND",
+    "cloud": "CLOUD_DEVOPS",
+    "tools": "WERKZEUGE",
+    "metrology": "MESSTECHNIK"
+  }
+}

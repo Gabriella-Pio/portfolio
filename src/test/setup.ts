@@ -39,7 +39,7 @@ window.HTMLElement.prototype.scrollIntoView = vi.fn();
 Object.defineProperty(window, 'matchMedia', {
   writable: true,
   value: vi.fn().mockImplementation((query: string) => ({
-    matches: false,
+    matches: query.includes('prefers-color-scheme: dark'),
     media: query,
     onchange: null,
     addListener: vi.fn(),

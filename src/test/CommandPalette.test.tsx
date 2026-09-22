@@ -2,18 +2,21 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
-import { CommandPalette } from '@/app/components/CommandPalette';
+import { CommandPalette } from '@/app/components/command/CommandPalette';
+import { AccessibilityProvider } from '@/app/context/AccessibilityContext';
 
-// Minimal wrapper — CommandPalette has no context dependency
 const renderPalette = (open = true, setOpen = vi.fn()) =>
-  render(<CommandPalette open={open} setOpen={setOpen} />);
+  render(
+    <AccessibilityProvider>
+      <CommandPalette open={open} setOpen={setOpen} />
+    </AccessibilityProvider>
+  );
 
 describe('CommandPalette', () => {
   beforeEach(() => {
     vi.clearAllMocks();
+    localStorage.clear();
   });
-
-  // ─── Visibility ───────────────────────────────────────────────────────────
 
   describe('visibility', () => {
     it('renders the search input when open=true', () => {
@@ -26,8 +29,6 @@ describe('CommandPalette', () => {
       expect(screen.queryByRole('combobox')).not.toBeInTheDocument();
     });
   });
-
-  // ─── Keyboard shortcuts ───────────────────────────────────────────────────
 
   describe('keyboard shortcuts', () => {
     it('calls setOpen(false) when Escape is pressed', () => {
@@ -45,12 +46,9 @@ describe('CommandPalette', () => {
 
       fireEvent.keyDown(document, { key: 'k', ctrlKey: true });
 
-      // open is true, so toggle should call setOpen(false)
       expect(setOpen).toHaveBeenCalledWith(false);
     });
   });
-
-  // ─── Navigation groups ────────────────────────────────────────────────────
 
   describe('navigation groups', () => {
     it('renders the Navigation group heading', () => {
@@ -58,9 +56,9 @@ describe('CommandPalette', () => {
       expect(screen.getByText('command:groups.navigation')).toBeInTheDocument();
     });
 
-    it('renders the System group heading', () => {
+    it('renders the Accessibility group heading', () => {
       renderPalette();
-      expect(screen.getByText('command:groups.system')).toBeInTheDocument();
+      expect(screen.getByText('command:groups.accessibility')).toBeInTheDocument();
     });
 
     it('renders the Social group heading', () => {
@@ -72,12 +70,10 @@ describe('CommandPalette', () => {
       renderPalette();
       expect(screen.getByText('command:items.home')).toBeInTheDocument();
       expect(screen.getByText('command:items.projects')).toBeInTheDocument();
-      expect(screen.getByText('command:items.notes')).toBeInTheDocument();
+      expect(screen.getByText('command:items.garden')).toBeInTheDocument();
       expect(screen.getByText('command:items.about')).toBeInTheDocument();
     });
   });
-
-  // ─── Bikcraft smart search ────────────────────────────────────────────────
 
   describe('bikcraft smart search', () => {
     it('shows best match section when "bik" is typed', async () => {
@@ -112,23 +108,29 @@ describe('CommandPalette', () => {
     });
   });
 
-  // ─── Input reset on close ─────────────────────────────────────────────────
-
   describe('input reset', () => {
     it('clears the input when palette is closed (open changes to false)', () => {
       const { rerender } = render(
-        <CommandPalette open={true} setOpen={vi.fn()} />
+        <AccessibilityProvider>
+          <CommandPalette open={true} setOpen={vi.fn()} />
+        </AccessibilityProvider>
       );
 
       const input = screen.getByRole('combobox') as HTMLInputElement;
       fireEvent.change(input, { target: { value: 'test query' } });
       expect(input.value).toBe('test query');
 
-      // Close the palette
-      rerender(<CommandPalette open={false} setOpen={vi.fn()} />);
+      rerender(
+        <AccessibilityProvider>
+          <CommandPalette open={false} setOpen={vi.fn()} />
+        </AccessibilityProvider>
+      );
 
-      // Reopen — input should be empty
-      rerender(<CommandPalette open={true} setOpen={vi.fn()} />);
+      rerender(
+        <AccessibilityProvider>
+          <CommandPalette open={true} setOpen={vi.fn()} />
+        </AccessibilityProvider>
+      );
       expect(screen.getByRole('combobox')).toHaveValue('');
     });
   });

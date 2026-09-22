@@ -5,16 +5,25 @@
   "goToRepo": "Go to: Bikcraft Repository",
   "groups": {
     "navigation": "Navigation",
-    "system": "System",
-    "social": "Social"
+    "accessibility": "Accessibility & Appearance",
+    "social": "Social Links"
   },
   "items": {
     "home": "Home",
+    "about": "About Me",
+    "experience": "Work Experience",
+    "skills": "Skills & Techs",
     "projects": "Projects",
-    "notes": "Notes",
-    "about": "About",
-    "settings": "Settings",
-    "toggleDark": "Toggle Dark Mode",
-    "toggleLight": "Toggle Light Mode"
+    "qualifications": "Qualifications",
+    "garden": "Digital Garden",
+    "contact": "Contact",
+    "toggleDark": "Switch to Dark Mode",
+    "toggleLight": "Switch to Light Mode",
+    "highContrast": "Enable High Contrast",
+    "disableHighContrast": "Disable High Contrast",
+    "reduceMotion": "Reduce Motion",
+    "enableMotion": "Enable Animations",
+    "copyEmail": "Copy Email",
+    "emailCopied": "Email Copied!"
   }
 }

@@ -2,6 +2,14 @@
   "commandPalette": "PROCURAR_COMANDOS",
   "theme": "TEMA",
   "accessibility": "ACESSIBILIDADE",
+  "nav": {
+    "about": "SOBRE",
+    "experience": "EXP",
+    "skills": "STACK",
+    "projects": "PROJETOS",
+    "garden": "LOGS",
+    "contact": "CONTATO"
+  },
   "simulation": {
     "active": "SIMULADOR_ATIVO",
     "inactive": "INICIAR_SIM",

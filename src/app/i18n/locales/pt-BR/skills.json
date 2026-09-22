@@ -1,0 +1,12 @@
+{
+  "heading": "STACK_TECNOLOGICO",
+  "badge": "core/modulos",
+  "categories": {
+    "all": "TODOS_MODULOS",
+    "frontend": "FRONTEND",
+    "backend": "BACKEND",
+    "cloud": "NUVEM_DEVOPS",
+    "tools": "FERRAMENTAS",
+    "metrology": "METROLOGIA"
+  }
+}

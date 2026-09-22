@@ -1,0 +1,12 @@
+{
+  "heading": "TECH_STACK",
+  "badge": "core/modules",
+  "categories": {
+    "all": "ALL_MODULES",
+    "frontend": "FRONTEND",
+    "backend": "BACKEND",
+    "cloud": "CLOUD_DEVOPS",
+    "tools": "TOOLS",
+    "metrology": "METROLOGY"
+  }
+}

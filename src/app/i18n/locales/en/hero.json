@@ -1,19 +1,25 @@
 {
   "title": {
     "line1": "Software Engineering",
-    "line2": "System Architecture"
+    "line2": "Industrial Systems"
   },
   "status": "SYSTEM STATUS: ONLINE",
   "metrics": {
-    "title": "SYSTEM_METRICS",
-    "uptime": "UPTIME",
-    "cpuLoad": "CPU_LOAD",
-    "nodes": "NODES",
-    "cores": "CORES"
+    "title": "SYS_TELEMETRY"
   },
   "operations": {
     "currentOp": "CURRENT_OP ::",
-    "available": "AVAILABLE FOR HIRE",
-    "protocol": "PROTOCOL   ::"
+    "status": "Software & Metrology @ SENAI ZEISS",
+    "stackCore": "STACK_CORE ::",
+    "location": "LOCATION   ::",
+    "locationValue": "Goiânia, BR"
+  },
+  "telemetry": {
+    "zeissTitle": "ZEISS GERMANY TRACK",
+    "zeissDesc": "Selected among candidates from 3 SENAI units competing for Germany placement.",
+    "coreDomainTitle": "CORE DOMAIN",
+    "coreDomainDesc": "Full-Stack Web, Microservices Containerization & Precision Metrology.",
+    "languagesLabel": "LANGUAGES",
+    "degreeLabel": "DEGREE"
   }
 }

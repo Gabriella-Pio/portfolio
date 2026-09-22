@@ -5,16 +5,25 @@
   "goToRepo": "Ir para o repositório do Bikcraft",
   "groups": {
     "navigation": "Navegação",
-    "system": "Sistema",
+    "accessibility": "Acessibilidade & Aparência",
     "social": "Redes Sociais"
   },
   "items": {
     "home": "Início",
+    "about": "Sobre Mim",
+    "experience": "Experiência Profissional",
+    "skills": "Habilidades & Techs",
     "projects": "Projetos",
-    "notes": "Notas",
-    "about": "Sobre",
-    "settings": "Configurações",
-    "toggleDark": "Alternar Modo Escuro",
-    "toggleLight": "Alternar Modo Claro"
+    "qualifications": "Qualificações",
+    "garden": "Jardim Digital",
+    "contact": "Contato",
+    "toggleDark": "Ativar Modo Escuro",
+    "toggleLight": "Ativar Modo Claro",
+    "highContrast": "Ativar Alto Contraste",
+    "disableHighContrast": "Desativar Alto Contraste",
+    "reduceMotion": "Reduzir Animações",
+    "enableMotion": "Ativar Animações",
+    "copyEmail": "Copiar E-mail",
+    "emailCopied": "E-mail Copiado!"
   }
 }

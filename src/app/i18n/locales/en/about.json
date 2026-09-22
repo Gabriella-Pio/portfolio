@@ -1,0 +1,16 @@
+{
+  "heading": "ABOUT_ME",
+  "badge": "sys/profile.md",
+  "imageAlt": "Profile photo of Gabriella Pio Correa",
+  "bio": {
+    "p1": "Software Developer with a passion for building <highlight>high-precision systems</highlight> and interactive interfaces that feel alive.",
+    "p2": "I thrive at the intersection of <highlight>web engineering</highlight>, <highlight>industrial systems</highlight>, and creative technology. My work spans scalable web applications, containerized workflows with <highlight>Docker</highlight>, and software for <highlight>industrial metrology</highlight> environments.",
+    "p3": "I approach software with a product-oriented mindset. I firmly believe that a small, exceptionally well-crafted feature is always more valuable than a high volume of unpolished deliverables. My goal is to build software that is as reliable behind the scenes as it is engaging on the screen."
+  },
+  "labels": {
+    "currentRole": "Current Role",
+    "education": "Education"
+  },
+  "currentRole": "Software Development & Metrology Intern · SENAI ZEISS",
+  "currentlyPursuing": "B.Sc. in Software Engineering · Faculdade SENAI Fatesg"
+}

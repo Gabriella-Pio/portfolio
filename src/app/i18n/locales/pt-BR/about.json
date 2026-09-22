@@ -1,0 +1,16 @@
+{
+  "heading": "SOBRE_MIM",
+  "badge": "sys/perfil.md",
+  "imageAlt": "Foto de perfil de Gabriella Pio Correa",
+  "bio": {
+    "p1": "Desenvolvedora de Software com paixão por construir <highlight>sistemas de alta precisão</highlight> e interfaces interativas que parecem ganhar vida.",
+    "p2": "Atuo na interseção entre <highlight>engenharia web</highlight>, <highlight>sistemas industriais</highlight> e tecnologia criativa. Meu trabalho abrange aplicações web escaláveis, fluxos containerizados em <highlight>Docker</highlight> e desenvolvimento para ambientes de <highlight>metrologia industrial</highlight>.",
+    "p3": "Encaro o desenvolvimento com uma mentalidade orientada a produto. Acredito que uma funcionalidade pequena, excepcionalmente bem construída, entrega mais valor do que um alto volume de entregas sem acabamento. Meu objetivo é construir software tão confiável nos bastidores quanto envolvente na tela."
+  },
+  "labels": {
+    "currentRole": "Cargo Atual",
+    "education": "Formação Acadêmica"
+  },
+  "currentRole": "Estagiária de Desenvol. & Metrologia · SENAI ZEISS",
+  "currentlyPursuing": "B.Sc. em Engenharia de Software · Faculdade SENAI Fatesg"
+}

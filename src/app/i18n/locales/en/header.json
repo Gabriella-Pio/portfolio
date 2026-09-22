@@ -2,6 +2,14 @@
   "commandPalette": "SEARCH_COMMANDS",
   "theme": "THEME",
   "accessibility": "ACCESSIBILITY",
+  "nav": {
+    "about": "ABOUT",
+    "experience": "EXP",
+    "skills": "STACK",
+    "projects": "PROJECTS",
+    "garden": "LOGS",
+    "contact": "CONTACT"
+  },
   "simulation": {
     "active": "SIMULATION_ACTIVE",
     "inactive": "INIT_SIM",

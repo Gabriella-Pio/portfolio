@@ -1,7 +1,13 @@
 import { useState, useCallback } from 'react';
 
+/** Set to true when the Three.js / R3F scene is ready to ship. */
+export const ENABLE_3D_SIMULATION = false;
+
 // ─────────────────────────────────────────────────────────────────────────────
 // use3DMode
+//
+// FUTURE: flip ENABLE_3D_SIMULATION and replace the simulated loadEngine
+// with real R3F initialization. Header / App already gate on the flag.
 //
 // Manages the lifecycle of the 3D simulation mode.
 //

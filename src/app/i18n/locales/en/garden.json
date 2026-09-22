@@ -3,7 +3,8 @@
   "category": "Category: {{category}}",
   "olderLogs": "View older logs...",
   "drawer": {
-    "share": "Share",
-    "readFull": "Read full article"
+    "share": "Copy link",
+    "copied": "Link copied",
+    "readFull": "Open repository"
   }
 }

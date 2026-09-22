@@ -2,6 +2,14 @@
   "commandPalette": "BEFEHLE_SUCHEN",
   "theme": "THEMA",
   "accessibility": "BARRIEREFREIHEIT",
+  "nav": {
+    "about": "UEBER",
+    "experience": "EXP",
+    "skills": "STACK",
+    "projects": "PROJEKTE",
+    "garden": "LOGS",
+    "contact": "KONTAKT"
+  },
   "simulation": {
     "active": "SIMULATION_AKTIV",
     "inactive": "SIM_STARTEN",

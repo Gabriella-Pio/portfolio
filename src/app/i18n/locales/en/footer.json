@@ -1,4 +1,4 @@
 {
   "systemVersion": "System version {{version}} [Stable]",
-  "shortcutHint": "Press <1>Cmd+K</1> to navigate"
+  "shortcutHint": "Press <1>Ctrl+K</1> to navigate"
 }

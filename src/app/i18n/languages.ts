@@ -1,7 +1,7 @@
 export const languages = [
   {
     code: 'pt-BR',
-    label: 'Portugues',
+    label: 'Portuguese',
     nativeLabel: 'Portugues BR',
     shortLabel: 'PT',
   },
@@ -10,12 +10,6 @@ export const languages = [
     label: 'English',
     nativeLabel: 'English',
     shortLabel: 'EN',
-  },
-  {
-    code: 'es',
-    label: 'Spanish',
-    nativeLabel: 'Espanol',
-    shortLabel: 'ES',
   },
   {
     code: 'de',

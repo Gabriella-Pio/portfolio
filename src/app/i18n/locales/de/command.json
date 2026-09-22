@@ -5,16 +5,25 @@
   "goToRepo": "Gehe zu: Bikcraft Repository",
   "groups": {
     "navigation": "Navigation",
-    "system": "System",
+    "accessibility": "Barrierefreiheit & Erscheinungsbild",
     "social": "Soziales"
   },
   "items": {
     "home": "Startseite",
-    "projects": "Projekte",
-    "notes": "Notizen",
     "about": "Ueber mich",
-    "settings": "Einstellungen",
-    "toggleDark": "Dunkelmodus umschalten",
-    "toggleLight": "Hellmodus umschalten"
+    "experience": "Berufserfahrung",
+    "skills": "Fähigkeiten & Techs",
+    "projects": "Projekte",
+    "qualifications": "Qualifikationen",
+    "garden": "Digitaler Garten",
+    "contact": "Kontakt",
+    "toggleDark": "Dunkelmodus aktivieren",
+    "toggleLight": "Hellmodus aktivieren",
+    "highContrast": "Hohen Kontrast aktivieren",
+    "disableHighContrast": "Hohen Kontrast deaktivieren",
+    "reduceMotion": "Animationen reduzieren",
+    "enableMotion": "Animationen aktivieren",
+    "copyEmail": "E-Mail kopieren",
+    "emailCopied": "E-Mail kopiert!"
   }
 }
